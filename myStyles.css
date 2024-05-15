@@ -1,0 +1,44 @@
+/*Author: Mina Taherzadeh,000922772 and all is my own work */
+/*date: 17 March 2024 */
+/* this is a css file that linked to html file to design some elements of svg and the whole page but the most of the styling is with boostrap and 
+java script */
+
+
+/* This is id for svg*/
+#snowMan {
+    border: 2px solid white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 20px;
+}
+
+/* This is a class for whole svg*/
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 75%;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+/* the id of the ellipse that is head of player and has been createn dynamic */
+#playerHead {
+
+    fill: white;
+}
+
+/* the id of the cirxle that is dress of player and has been createn dynamic */
+#firstdress {
+
+    fill: black;
+}
+
+/* this is nose of the snowman that has been created dynamic*/
+line {
+
+    stroke: orange;
+    stroke-width: 3;
+}

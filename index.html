@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Author: Mina Taherzadeh,000922772 and all is my own work-->
+    <!-- date: 17 March 2024-->
+    <!--This is a HTML page which will show a game that I explained its instructures-->
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="myStyles.css" type="text/css">
+    <script src="process.js" defer></script>
+
+</head>
+
+<body class="bg-dark">
+    <div class="container-md">
+        <header class="bg-light text-dark text-center">SnowBall Game</header>
+    </div>
+    <main class="container-md">
+        <div class="gameZone">
+           
+            <h1 id="text" class="text-light text-center">Do you want to play SnowBall game? Choose the level</h1>
+            <div class="row justify-content-evenly">
+                <button id="easy" class="bg-success btn mt-4 col-6 game-button">Easy</button>
+                <button id="hard" class="bg-danger btn mt-4 col-6 game-button">Hard</button>
+            </div>
+                <div class="text-light">
+                    <h1> Score: <span id="score" >0</span></h1>
+                </div>
+           
+           
+
+            <h1 class="text-light">How to play game</h1>
+
+            <p class="text-light">
+                This is a game that has two level easy and hard when you click on one of the button a svg animation will
+                appear which Shows Start game and game will start.
+                The game is that we have a snow man which user can move to right or left by moving mouse or by keyborad
+                and should catch snow balls. Each snow balls that it gets
+                the score will increase. we have a score counter that when game finished it will stop. We also have a
+                selector that user can choose the color of the snowballs.
+                This snowman will catch the snowballs only by head and so try to catch them before that they pass.
+                
+
+            </p>
+            <div class="container-md row justify-content-evenly ">
+
+                <label for="snowColor" class=" text-light"> Please before that game start select Snowball Color:</label>
+                <select name="snowColor" id="snowColor" class="">
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                </select>
+
+            </div>
+            <div class="container">
+
+
+
+                <svg width="800px" height="600px" viewbox="0 0 1000 1000" class="bg-gray" id="snowMan">
+
+                <!--all of the svg elements are dynamic-->
+
+                </svg>
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="text-dark text-center bg-light container-md">&#169; 2024-Mina Taherzadeh-Mohawk College</footer>
+
+
+</body>
+
+
+</html>
